@@ -10,9 +10,15 @@ int main (int argc, char** argv){
 		int len = 0 ;
 		while(argv[i][len] != '\0')
 			len++;
-		if(write(1,argv[i],len) < 0  || write(1," ",1) < 0)
+		if(write(1,argv[i],len) < 0)
 		{
 			perror("Write Error");
+		}
+		if (i < argc - 1) {
+		 if(write(1," ",1) < 0)
+    		{
+    			perror("Write Error");
+    		}
 		}
 	}
 
