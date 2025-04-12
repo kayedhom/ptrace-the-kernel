@@ -2,7 +2,7 @@
 
 ## About This Project
 
-This repository contains simple implementations of standard Unix utilities (like `mv`, `pwd`, `echo`, etc.) that I've created as part of my learning journey with Unix/Linux system programming.
+This repository contains simple implementations of standard Unix utilities (like `mv`, `pwd`, `echo`, `FemtoShell`, `PicoShell`, `NanoShell`, `MicroShell` etc.) that I've created as part of my learning journey with Unix/Linux system programming.
 
 ## Learning Goals
 
@@ -10,6 +10,7 @@ The main purpose of this project is to understand how system calls work at a low
 
 - Direct use of system calls (open, read, write, unlink, getcwd, etc.)
 - Proper error checking mechanisms for system calls
+- Simulate a real shell using demo shell (Nano, Micro shell)
 - How standard Unix utilities can be implemented using these fundamental building blocks
 
 ## Implementation Philosophy
@@ -32,6 +33,12 @@ All programs follow a consistent pattern:
 - **pwd**: Displays the current working directory
 - **echo**: Echoes command line arguments to stdout
 ![Example Command Output](doc/pwd_echo.jpg)
+- **NanoShell**: demo shell that simulate a simple shell
+![Example Command Output](doc/NanoTest.jpg)
+![Example Command Output](doc/NanoTest2.jpg)
+![Example Command Output](doc/NanoTest3.jpg)
+
+
 - and more soon
 
 ## Learning Resources
